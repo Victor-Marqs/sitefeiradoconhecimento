@@ -1,0 +1,225 @@
+html{
+    font: 400 62.5% 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: white;
+    --second-color: rgb(92, 206, 255);
+}
+/* .transicao__azul-branco{
+    min-height: 5vh ;
+    background-image: linear-gradient(#f5f5f5,#003464);
+} */
+.transicao__azul-laranja{
+    min-height: 20vh ;
+    background-image: linear-gradient( #ff3434,#003464);
+}
+.transicao__branco-vermelho{
+    background-image: linear-gradient(#f5f5f5, rgb(224, 142, 26));
+    min-height: 20vh ;
+}
+.wrapperContainer-dark{
+    background-color: #000000;
+    /* background-color: #343434; */
+}
+.wrapperContainer-dark2{
+    background-color: #003464;
+}
+.wrapperContainer-hero{
+    background-image: url(imagens/ChatGPT_Image_21_de_ago._de_2025_16_51_48.png);
+}
+.wrapperContainer-light{
+    background-color: #f5f5f5;
+}
+.container{
+    max-width: 160rem ;
+    margin: auto;
+}
+.padding{
+    padding-top: 10rem;
+}
+/* começo do header */
+header{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between; 
+    
+}
+.header-position{
+    /* position: sticky;
+    top: 0;
+    left: 0; */
+    box-shadow: 0px 4px 10px black;
+}
+header .navegacao{
+    padding: 0;
+    list-style-type: none;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 16px;
+    text-transform: uppercase;
+}
+header .navegacao li a{
+    color: #004f9a;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    /* border: 1px solid rgb(255, 255, 255); */
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+}
+header .navegacao li a:hover{
+   font-style: oblique;
+   background-color: #50abffb4;
+   color: white;
+}
+/* fim do header */
+
+/* começo do hero-bunner */
+.hero-bunner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30rem;
+}
+.hero-bunner img{
+    max-height: calc(100vh - 10rem);
+
+}
+.hero-bunner__text h1{
+    font-size: 6rem;
+    width: 14ch;
+    font-weight: bold;
+    margin-bottom: 4rem;
+    color: white;
+}
+.hero-bunner__text a{
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+    background-color: var(--second-color);
+    padding: 2rem 6rem;
+    border-radius: 1rem;
+    display: inline-block;
+}
+.hero-bunner__text a:hover{
+    text-decoration: underline black;
+}
+/* fim do hero-bunner */
+
+/* começo do cursos */
+.cursos{
+    min-height: 100vh;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cursos h2{
+    font-size: 5rem;
+    margin: 10rem 0 0;
+    text-align: center;
+}
+.cursos-conteiner{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.cursos-card{
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .3);
+    width: 50rem;
+}
+.cursos-card img{
+    display: block;
+    width: 100%;
+    border-radius: 1rem;
+}
+.cursos-card__text{
+    padding: 4rem 3rem;
+    
+}
+.cursos-card__text h3{
+    font-size: 3rem;
+    margin: 0;
+}
+.cursos-card__text p{
+    font-size: 1.7rem;
+    color: rgb(126, 126, 126);
+    line-height: 2.7rem;
+}
+.cursos a{
+    font-size: 2.7rem;
+    color: black;
+    text-decoration: none;
+    background-color: gold;
+    padding: 2rem 4rem;
+    border-radius: 2rem;
+    display: inline-block;
+    margin: 0 0 10rem;
+}
+.cursos a:hover{
+    text-decoration: underline black;
+}
+/* fim do cursos */
+
+/* inicio da escola */
+.escola{
+    width: 100vw;
+    display: flex;    
+    gap: 25rem;
+    padding: 2rem 8rem 8rem;
+} 
+.escola__text{
+    color: white;
+}
+.escola__text h2{
+    font-size: 4rem;
+    margin: 5rem 0;
+}
+.escola__text p{
+    font-size: 2rem;
+    line-height: 3rem;
+    width: 80%;
+}
+/* fim da escola */
+
+/* início do contatos */
+#contatos{
+    background-image: linear-gradient(rgb(224, 142, 26), #ff3434 );
+    padding: 0 10rem ;
+}
+.contatos{
+    padding-top: 2rem;
+    max-width: 55%;
+    min-height:80vh;
+    display: flex;
+    flex-direction: column;    
+}
+.contatos iframe{
+    border-radius: 2rem;
+    margin-bottom: 10rem;
+}
+.bombeirinho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    gap: 2rem;
+}
+.contatos h1{    
+    font-size: 5rem;    
+}
+/* fim do contatos */
+
+/* inicio do footer */
+footer{
+    padding: 4.5rem;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+/* fim di footer */
