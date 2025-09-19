@@ -44,7 +44,7 @@ header{
     padding: 1rem;
     align-items: center;
     justify-content: space-between; 
-    flex-wrap: wrap;
+
     
 }
 .header-position{
@@ -83,7 +83,6 @@ header .navegacao li a:hover{
     align-items: center;
     justify-content: space-evenly;
     gap: 30rem;
-    flex-wrap: wrap;
 }
 .hero-bunner img{
     max-height: calc(100vh - 10rem);
@@ -117,7 +116,6 @@ header .navegacao li a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
 }
 .cursos h2{
     font-size: 5rem;
@@ -129,7 +127,6 @@ header .navegacao li a:hover{
     display: flex;
     justify-content: center;
     gap: 3rem;
-    flex-wrap: wrap;
 }
 .cursos-card{
     background-color: white;
@@ -176,7 +173,6 @@ header .navegacao li a:hover{
     display: flex;    
     gap: 25rem;
     padding: 2rem 8rem 8rem;
-    flex-wrap: wrap;
 } 
 .escola__text{
     color: white;
@@ -203,7 +199,6 @@ header .navegacao li a:hover{
     min-height:80vh;
     display: flex;
     flex-direction: column;   
-    flex-wrap: wrap;
 }
 .contatos iframe{
     border-radius: 2rem;
@@ -215,7 +210,6 @@ header .navegacao li a:hover{
     align-items: center;
     margin-bottom: 5rem;
     gap: 2rem;
-    flex-wrap: wrap;
 }
 .contatos h1{    
     font-size: 5rem;    
@@ -228,7 +222,7 @@ footer{
     color: white;
     font-size: 2rem;
     text-align: center;
-    flex-wrap: wrap;
 }
 
 /* fim di footer */
+
